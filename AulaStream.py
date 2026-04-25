@@ -55,11 +55,28 @@ elif opcao == "Projeto Acadêmico":
     permitindo melhor organização das tarefas, definição de prioridades e controle do progresso.
     """)
 
-    st.image("Trello.png",
-             caption="Quadro do Trello utilizado para organização das tarefas do projeto, incluindo etapas de desenvolvimento, revisão e conclusão.",
-             use_container_width=True)
+col1, col2, col3 = st.columns(3)
 
-    st.markdown("---")
+with col1:
+    st.image(
+        "trello1.png",
+        caption="Visão geral do quadro no Trello, mostrando a estrutura inicial das tarefas.",
+        use_container_width=True
+    )
+
+with col2:
+    st.image(
+        "trello2.png",
+        caption="Organização das atividades por etapas, incluindo desenvolvimento e revisão.",
+        use_container_width=True
+    )
+
+with col3:
+    st.image(
+        "trello3.png",
+        caption="Acompanhamento do progresso e conclusão das tarefas ao longo do projeto.",
+        use_container_width=True
+    )
 
     # 🔹 CÓDIGO
     st.subheader("💻 Estrutura e Desenvolvimento do Código")
