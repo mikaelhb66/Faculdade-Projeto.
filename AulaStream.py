@@ -111,5 +111,5 @@ st.subheader("🎥 Demonstração em Aula")
 st.write("""
 Registro da participação presencial na aula de educação financeira, realizada no local do projeto.
 Foram utilizados meus próprios equipamentos, como notebook e cabos, para apoio na execução da atividade.
-
+""")
 st.video("Video.mp4")
