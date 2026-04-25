@@ -16,16 +16,14 @@ if opcao == "Seja Bem-Vindo":
     st.title("👋 Seja Bem-Vindo")
 
     st.write("""
-    Este ambiente foi desenvolvido para apresentar minhas competências, certificações
-    e projetos acadêmicos ao longo da minha formação em Análise e Desenvolvimento de Sistemas (3º semestre).
+    Este ambiente foi desenvolvido para apresentar minhas competência e Projeto Acadêmico de Análise e Desenvolvimento de Sistemas (3º semestre).
     """)
 
     st.markdown("---")
 
-    st.subheader("🎯 Objetivo Profissional")
+    st.subheader("🎯 Objetivo")
     st.write("""
-    Atuar na área de tecnologia, com foco em desenvolvimento de sistemas e soluções voltadas
-    ao mercado financeiro.
+    Demonstração simples e direta para o avaliador.
     """)
 
 # ==============================
@@ -35,14 +33,14 @@ elif opcao == "Projeto Acadêmico":
     st.title("🚀 Projeto Acadêmico")
 
     st.write("""
-    Projeto desenvolvido com foco em organização, desenvolvimento e aplicação prática.
+    Este projeto foi desenvolvido com o objetivo de aplicar conceitos de finanças básicas de forma prática, utilizando organização no Trello e Desenvolvimento em código de aplicativo pratico.(Pode apliar imagens clicando nela na parte superior direta).
     """)
 
     st.markdown("---")
 
     # 🔹 TRELLO
     st.subheader("📋 Organização do Projeto (Trello)")
-    st.write("Gerenciamento de tarefas e acompanhamento do progresso.")
+    st.write("Desenvovimento no Trello.")
 
     col1, col2, col3 = st.columns(3)
 
@@ -53,42 +51,42 @@ elif opcao == "Projeto Acadêmico":
 
     with col2:
         st.image("Trello02.png",
-                 caption="Organização das tarefas por etapas.",
+                 caption="Organização Incio da Apresentação.",
                  use_container_width=True)
 
     with col3:
         st.image("Trello03.png",
-                 caption="Acompanhamento do progresso.",
+                 caption="Final apresentação pelo Trello.",
                  use_container_width=True)
 
     st.markdown("---")
 
     # 🔹 CÓDIGO
-    st.subheader("💻 Código")
+    st.subheader("💻 Demostração Apricativo Pratico")
 
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("codigo1.png", caption="Estrutura inicial.", use_container_width=True)
+        st.image("codigo1.png", caption="Funcionalmento inicial.", use_container_width=True)
         st.image("codigo2.png", caption="Lógica principal.", use_container_width=True)
 
     with col2:
-        st.image("codigo3.png", caption="Organização do código.", use_container_width=True)
-        st.image("codigo4.png", caption="Melhorias finais.", use_container_width=True)
+        st.image("codigo3.png", caption="Organização e apresntação informações.", use_container_width=True)
+        st.image("codigo4.png", caption="Resultado final.", use_container_width=True)
 
     st.markdown("---")
 
     # 🔹 PORTFÓLIO
-    st.subheader("🌐 Portfólio")
+    st.subheader("🌐 Portfólio Pessoal.")
 
     col1, col2 = st.columns(2)
 
     with col1:
         st.image("portfolio1.png", caption="Tela inicial.", use_container_width=True)
-        st.image("portfolio2.png", caption="Projetos.", use_container_width=True)
+        st.image("portfolio2.png", caption="Me apresetando.", use_container_width=True)
 
     with col2:
-        st.image("portfolio3.png", caption="Apresentação pessoal.", use_container_width=True)
+        st.image("portfolio3.png", caption="Certificações.", use_container_width=True)
 
     st.markdown("---")
 
@@ -98,9 +96,9 @@ elif opcao == "Projeto Acadêmico":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("aula1.png", caption="Atividade prática.", use_container_width=True)
+        st.image("aula1.png", caption="Atividade na prática.", use_container_width=True)
         st.image("aula2.png", caption="Explicação.", use_container_width=True)
 
     with col2:
-        st.image("aula3.png", caption="Laboratório.", use_container_width=True)
-        st.image("aula4.png", caption="Evolução.", use_container_width=True)
+        st.image("aula3.png", caption="Apricativo.", use_container_width=True)
+        st.image("aula4.png", caption="Final da Apresetnação.", use_container_width=True)
