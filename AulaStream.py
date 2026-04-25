@@ -109,8 +109,7 @@ st.markdown("---")
 st.subheader("🎥 Demonstração em Aula")
 
 st.write("""
-Registro da aplicação prática do projeto durante a aula de educação financeira,
-utilizando o sistema como ferramenta de apoio.
-""")
+Registro da participação presencial na aula de educação financeira, realizada no local do projeto.
+Foram utilizados meus próprios equipamentos, como notebook e cabos, para apoio na execução da atividade.
 
 st.video("Video.mp4")
