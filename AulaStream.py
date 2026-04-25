@@ -55,7 +55,7 @@ elif opcao == "Projeto Acadêmico":
     permitindo melhor organização das tarefas, definição de prioridades e controle do progresso.
     """)
 
-    st.image("imagens/trello.png",
+    st.image("Trello.png",
              caption="Quadro do Trello utilizado para organização das tarefas do projeto, incluindo etapas de desenvolvimento, revisão e conclusão.",
              use_container_width=True)
 
@@ -71,20 +71,20 @@ elif opcao == "Projeto Acadêmico":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("imagens/codigo1.png",
+        st.image("codigo1.png",
                  caption="Estrutura inicial do projeto, incluindo importação de bibliotecas e configuração base.",
                  use_container_width=True)
 
-        st.image("imagens/codigo2.png",
+        st.image("codigo2.png",
                  caption="Implementação da lógica principal do sistema, responsável pelo funcionamento das funcionalidades.",
                  use_container_width=True)
 
     with col2:
-        st.image("imagens/codigo3.png",
+        st.image("codigo3.png",
                  caption="Organização das funções e separação de responsabilidades dentro do código.",
                  use_container_width=True)
 
-        st.image("imagens/codigo4.png",
+        st.image("codigo4.png",
                  caption="Ajustes finais e melhorias aplicadas para otimização e padronização do sistema.",
                  use_container_width=True)
 
@@ -100,16 +100,16 @@ elif opcao == "Projeto Acadêmico":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("imagens/portfolio1.png",
+        st.image("portfolio1.png",
                  caption="Tela inicial do portfólio, com apresentação geral e introdução.",
                  use_container_width=True)
 
-        st.image("imagens/portfolio2.png",
+        st.image("portfolio2.png",
                  caption="Seção dedicada à exibição de projetos desenvolvidos.",
                  use_container_width=True)
 
     with col2:
-        st.image("imagens/portfolio3.png",
+        st.image("portfolio3.png",
                  caption="Área de apresentação pessoal, destacando habilidades e objetivos profissionais.",
                  use_container_width=True)
 
@@ -125,19 +125,19 @@ elif opcao == "Projeto Acadêmico":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("imagens/aula1.png",
+        st.image("aula1.png",
                  caption="Momento de desenvolvimento prático durante as aulas.",
                  use_container_width=True)
 
-        st.image("imagens/aula2.png",
+        st.image("aula2.png",
                  caption="Explicação de conceitos importantes aplicados no projeto.",
                  use_container_width=True)
 
     with col2:
-        st.image("imagens/aula3.png",
+        st.image("aula3.png",
                  caption="Execução de atividades no ambiente de laboratório.",
                  use_container_width=True)
 
-        st.image("imagens/aula4.png",
+        st.image("aula4.png",
                  caption="Evolução do projeto ao longo das etapas de aprendizado.",
                  use_container_width=True)
