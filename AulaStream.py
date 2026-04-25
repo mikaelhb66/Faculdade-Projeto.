@@ -102,3 +102,15 @@ elif opcao == "Projeto Acadêmico":
     with col2:
         st.image("aula3.png", caption="Apricativo.", use_container_width=True)
         st.image("aula4.png", caption="Final da Apresetnação.", use_container_width=True)
+        
+        # 🎥 VÍDEO (AQUI NO FINAL DAS AULAS)
+st.markdown("---")
+
+st.subheader("🎥 Demonstração em Aula")
+
+st.write("""
+Registro da aplicação prática do projeto durante a aula de educação financeira,
+utilizando o sistema como ferramenta de apoio.
+""")
+
+st.video("video.mp4")
