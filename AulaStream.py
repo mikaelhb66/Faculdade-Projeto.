@@ -33,7 +33,7 @@ elif opcao == "Projeto Acadêmico":
     st.title("🚀 Projeto Acadêmico")
 
     st.write("""
-    Este projeto foi desenvolvido com o objetivo de aplicar conceitos de finanças básicas de forma prática, utilizando organização no Trello e Desenvolvimento em código de aplicativo pratico.(Pode apliar imagens clicando nela na parte superior direta).
+    Este projeto foi desenvolvido com o objetivo de aplicar conceitos de finanças básicas de forma prática, utilizando organização no Trello e Desenvolvimento em código de aplicativo pratico.(Pode ampliar imagens clicando nela na parte superior direta).
     """)
 
     st.markdown("---")
