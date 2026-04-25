@@ -113,4 +113,4 @@ Registro da aplicação prática do projeto durante a aula de educação finance
 utilizando o sistema como ferramenta de apoio.
 """)
 
-st.video("video.mp4")
+st.video("Video.mp4")
