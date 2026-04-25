@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Apresentando Mikael", layout="wide")
 
-# MENU LATERAL (apenas 2 abas)
+# MENU LATERAL
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio(
     "Escolha uma opção:",
@@ -18,9 +18,6 @@ if opcao == "Seja Bem-Vindo":
     st.write("""
     Este ambiente foi desenvolvido para apresentar minhas competências, certificações
     e projetos acadêmicos ao longo da minha formação em Análise e Desenvolvimento de Sistemas (3º semestre).
-
-    Aqui você encontrará exemplos práticos das minhas habilidades em desenvolvimento,
-    organização de projetos e aplicação de tecnologia na resolução de problemas reais.
     """)
 
     st.markdown("---")
@@ -28,8 +25,7 @@ if opcao == "Seja Bem-Vindo":
     st.subheader("🎯 Objetivo Profissional")
     st.write("""
     Atuar na área de tecnologia, com foco em desenvolvimento de sistemas e soluções voltadas
-    ao mercado financeiro, aplicando boas práticas de programação, organização de código
-    e uso de ferramentas modernas para criação de sistemas eficientes.
+    ao mercado financeiro.
     """)
 
 # ==============================
@@ -39,122 +35,72 @@ elif opcao == "Projeto Acadêmico":
     st.title("🚀 Projeto Acadêmico")
 
     st.write("""
-    Este projeto foi desenvolvido com o objetivo de aplicar na prática os conhecimentos adquiridos
-    durante o curso, envolvendo organização, desenvolvimento e apresentação de um sistema funcional.
-
-    Durante sua construção, utilizei ferramentas de apoio, incluindo inteligência artificial,
-    para otimizar o desenvolvimento e melhorar a qualidade do código.
+    Projeto desenvolvido com foco em organização, desenvolvimento e aplicação prática.
     """)
 
     st.markdown("---")
 
     # 🔹 TRELLO
     st.subheader("📋 Organização do Projeto (Trello)")
-    st.write("""
-    O planejamento e acompanhamento das atividades foram realizados utilizando o Trello,
-    permitindo melhor organização das tarefas, definição de prioridades e controle do progresso.
-    """)
+    st.write("Gerenciamento de tarefas e acompanhamento do progresso.")
 
-col1, col2, col3 = st.columns(3)
+    col1, col2, col3 = st.columns(3)
 
-with col1:
-    st.image(
-        "trello1.png",
-        caption="Visão geral do quadro no Trello, mostrando a estrutura inicial das tarefas.",
-        use_container_width=True
-    )
+    with col1:
+        st.image("trello1.png",
+                 caption="Visão geral do quadro no Trello.",
+                 use_container_width=True)
 
-with col2:
-    st.image(
-        "trello2.png",
-        caption="Organização das atividades por etapas, incluindo desenvolvimento e revisão.",
-        use_container_width=True
-    )
+    with col2:
+        st.image("trello2.png",
+                 caption="Organização das tarefas por etapas.",
+                 use_container_width=True)
 
-with col3:
-    st.image(
-        "trello3.png",
-        caption="Acompanhamento do progresso e conclusão das tarefas ao longo do projeto.",
-        use_container_width=True
-    )
+    with col3:
+        st.image("trello3.png",
+                 caption="Acompanhamento do progresso.",
+                 use_container_width=True)
+
+    st.markdown("---")
 
     # 🔹 CÓDIGO
-    st.subheader("💻 Estrutura e Desenvolvimento do Código")
-    st.write("""
-    O código foi estruturado de forma modular, buscando clareza, organização e facilidade de manutenção.
-    Abaixo estão alguns trechos representando diferentes partes do desenvolvimento.
-    """)
+    st.subheader("💻 Código")
 
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("codigo1.png",
-                 caption="Estrutura inicial do projeto, incluindo importação de bibliotecas e configuração base.",
-                 use_container_width=True)
-
-        st.image("codigo2.png",
-                 caption="Implementação da lógica principal do sistema, responsável pelo funcionamento das funcionalidades.",
-                 use_container_width=True)
+        st.image("codigo1.png", caption="Estrutura inicial.", use_container_width=True)
+        st.image("codigo2.png", caption="Lógica principal.", use_container_width=True)
 
     with col2:
-        st.image("codigo3.png",
-                 caption="Organização das funções e separação de responsabilidades dentro do código.",
-                 use_container_width=True)
-
-        st.image("codigo4.png",
-                 caption="Ajustes finais e melhorias aplicadas para otimização e padronização do sistema.",
-                 use_container_width=True)
+        st.image("codigo3.png", caption="Organização do código.", use_container_width=True)
+        st.image("codigo4.png", caption="Melhorias finais.", use_container_width=True)
 
     st.markdown("---")
 
     # 🔹 PORTFÓLIO
-    st.subheader("🌐 Desenvolvimento do Portfólio")
-    st.write("""
-    O portfólio foi desenvolvido com o objetivo de apresentar de forma clara e profissional
-    as competências adquiridas, bem como os projetos realizados ao longo da formação.
-    """)
+    st.subheader("🌐 Portfólio")
 
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("portfolio1.png",
-                 caption="Tela inicial do portfólio, com apresentação geral e introdução.",
-                 use_container_width=True)
-
-        st.image("portfolio2.png",
-                 caption="Seção dedicada à exibição de projetos desenvolvidos.",
-                 use_container_width=True)
+        st.image("portfolio1.png", caption="Tela inicial.", use_container_width=True)
+        st.image("portfolio2.png", caption="Projetos.", use_container_width=True)
 
     with col2:
-        st.image("portfolio3.png",
-                 caption="Área de apresentação pessoal, destacando habilidades e objetivos profissionais.",
-                 use_container_width=True)
+        st.image("portfolio3.png", caption="Apresentação pessoal.", use_container_width=True)
 
     st.markdown("---")
 
     # 🔹 AULAS
-    st.subheader("📚 Desenvolvimento em Aula")
-    st.write("""
-    O projeto também foi acompanhado e desenvolvido durante as aulas,
-    com orientação do professor e aplicação prática dos conteúdos estudados.
-    """)
+    st.subheader("📚 Aulas")
 
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("aula1.png",
-                 caption="Momento de desenvolvimento prático durante as aulas.",
-                 use_container_width=True)
-
-        st.image("aula2.png",
-                 caption="Explicação de conceitos importantes aplicados no projeto.",
-                 use_container_width=True)
+        st.image("aula1.png", caption="Atividade prática.", use_container_width=True)
+        st.image("aula2.png", caption="Explicação.", use_container_width=True)
 
     with col2:
-        st.image("aula3.png",
-                 caption="Execução de atividades no ambiente de laboratório.",
-                 use_container_width=True)
-
-        st.image("aula4.png",
-                 caption="Evolução do projeto ao longo das etapas de aprendizado.",
-                 use_container_width=True)
+        st.image("aula3.png", caption="Laboratório.", use_container_width=True)
+        st.image("aula4.png", caption="Evolução.", use_container_width=True)
