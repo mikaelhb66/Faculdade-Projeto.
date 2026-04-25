@@ -47,17 +47,17 @@ elif opcao == "Projeto Acadêmico":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.image("trello1.png",
+        st.image("Trello0.png",
                  caption="Visão geral do quadro no Trello.",
                  use_container_width=True)
 
     with col2:
-        st.image("trello2.png",
+        st.image("Trello2.png",
                  caption="Organização das tarefas por etapas.",
                  use_container_width=True)
 
     with col3:
-        st.image("trello3.png",
+        st.image("Trello3.png",
                  caption="Acompanhamento do progresso.",
                  use_container_width=True)
 
