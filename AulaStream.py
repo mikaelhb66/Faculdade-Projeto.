@@ -90,26 +90,27 @@ elif opcao == "Projeto Acadêmico":
 
     st.markdown("---")
 
-    # 🔹 AULAS
-    st.subheader("📚 Aulas")
+# 🔹 AULAS
+st.subheader("📚 Aulas")
 
-    col1, col2 = st.columns(2)
+col1, col2 = st.columns(2)
 
-    with col1:
-        st.image("aula1.png", caption="Atividade na prática.", use_container_width=True)
-        st.image("aula2.png", caption="Explicação.", use_container_width=True)
+with col1:
+    st.image("aula1.png", caption="Atividade na prática.", use_container_width=True)
+    st.image("aula2.png", caption="Explicação.", use_container_width=True)
 
-    with col2:
-        st.image("aula3.png", caption="Apricativo.", use_container_width=True)
-        st.image("aula4.png", caption="Final da Apresetnação.", use_container_width=True)
-        
-        # 🎥 VÍDEO (AQUI NO FINAL DAS AULAS)
+with col2:
+    st.image("aula3.png", caption="Aplicativo.", use_container_width=True)
+    st.image("aula4.png", caption="Final da apresentação.", use_container_width=True)
+
 st.markdown("---")
 
+# 🎥 VÍDEO
 st.subheader("🎥 Demonstração em Aula")
 
 st.write("""
 Registro da participação presencial na aula de educação financeira, realizada no local do projeto.
 Foram utilizados meus próprios equipamentos, como notebook e cabos, para apoio na execução da atividade.
 """)
+
 st.video("Video.mp4")
