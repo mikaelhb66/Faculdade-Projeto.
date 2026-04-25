@@ -38,7 +38,7 @@ if opcao == "Seja Bem-Vindo":
 
     st.write("""
     Este projeto foi desenvolvido com o objetivo de aplicar conceitos de finanças básicas de forma prática,
-    utilizando organização no Trello e desenvolvimento de um aplicativo funcional.
+    utilizando organização no Trello e desenvolvimento de um aplicativo funcional.(Para ampliar imagens, click no canto direto da imagem). 
     """)
 
     st.markdown("---")
