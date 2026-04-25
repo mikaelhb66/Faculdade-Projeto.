@@ -52,12 +52,12 @@ elif opcao == "Projeto Acadêmico":
                  use_container_width=True)
 
     with col2:
-        st.image("Trello2.png",
+        st.image("Trello02.png",
                  caption="Organização das tarefas por etapas.",
                  use_container_width=True)
 
     with col3:
-        st.image("Trello3.png",
+        st.image("Trello03.png",
                  caption="Acompanhamento do progresso.",
                  use_container_width=True)
 
